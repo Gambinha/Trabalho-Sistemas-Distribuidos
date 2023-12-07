@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoList</title>
+    <link rel="stylesheet" href="css/styles_todoList.css" />
+  </head>
+  <body>
+    <input
+      type="text"
+      name="apiUrl"
+      value="<%= apiUrl %>"
+      style="display: none"
+    />
+
+    <div class="container">
+      <h1>Todo List</h1>
+
+      <!-- Formulário de Criação de Todo -->
+      <form id="createTodoForm">
+        <label for="description">Nova Tarefa:</label>
+        <input type="text" id="description" required />
+        <button type="submit">Adicionar</button>
+      </form>
+
+      <!-- Lista de Todos -->
+      <ul id="todoList"></ul>
+    </div>
+
+    <script type="module" src="js/todoList.js"></script>
+  </body>
+</html>

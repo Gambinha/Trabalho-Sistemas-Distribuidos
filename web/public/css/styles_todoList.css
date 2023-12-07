@@ -1,0 +1,95 @@
+/* Estilo básico, você pode personalizar conforme necessário */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Estilo aprimorado para o Todo */
+li {
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+.description {
+  display: block;
+  max-width: 80%;
+  width: 80%;
+  flex-grow: 1;
+  margin-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.description-checked {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.deleteBtn {
+  background-color: #f44336;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background-color: #d32f2f;
+}
